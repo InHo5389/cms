@@ -39,6 +39,5 @@ public class SignUpCustomerService {
             return customer.getVerifyExpiredAt();
         }
         throw new CustomException(ErrorCode.NOT_FOUND_USER);
-
     }
 }

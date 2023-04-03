@@ -23,4 +23,5 @@ public class SignUpController {
     public ResponseEntity<String> customerSignUp(@RequestBody SignUpForm form){
         return ResponseEntity.ok(signUpApplication.customerSignUp(form));
     }
+
 }

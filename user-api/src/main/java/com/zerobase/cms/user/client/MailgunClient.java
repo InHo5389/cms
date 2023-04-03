@@ -14,4 +14,5 @@ public interface MailgunClient {
 
     @PostMapping("inho.mailgun.org/messages")
     ResponseEntity<String> sendEmail(@SpringQueryMap SendMailForm form);
+
 }

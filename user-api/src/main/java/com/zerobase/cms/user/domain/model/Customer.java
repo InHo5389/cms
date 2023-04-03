@@ -44,6 +44,5 @@ public class Customer extends BaseEntity{
                 .phone(form.getPhone())
                 .verify(false)
                 .build();
-
     }
 }

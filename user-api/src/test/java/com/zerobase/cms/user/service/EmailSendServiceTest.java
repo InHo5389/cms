@@ -17,6 +17,5 @@ class EmailSendServiceTest {
     public void EmailTest(){
 
         mailgunClient.sendEmail(null);
-
     }
 }

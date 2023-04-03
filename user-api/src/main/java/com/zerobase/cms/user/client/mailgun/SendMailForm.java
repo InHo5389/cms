@@ -14,4 +14,5 @@ public class SendMailForm {
     private String to;
     private String subject;
     private String text;
+
 }
